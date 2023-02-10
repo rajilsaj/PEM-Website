@@ -1,0 +1,84 @@
+/* Fonts */
+@font-face {
+  font-family: 'LeagueSpartan';
+  src: local('LeagueSpartan'), url(./assets/fonts/League_Spartan/LeagueSpartan-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    font-weight: 900;
+    src: local('LeagueSpartan'), url(./assets/fonts/League_Spartan/LeagueSpartan-Bold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    font-weight: 900;
+    src: local('LeagueSpartan'), url(./assets/fonts/League_Spartan/LeagueSpartan-Black.ttf) format('opentype');
+}
+
+html, body, span, div, h1, h2, section{
+  font-family: 'LeagueSpartan', sans-serif, Arial;
+}
+/* /Header/ */ 
+.header{
+  position: relative;
+}
+header{
+  z-index: 1;
+
+}
+section.main-image-video-bg{
+  margin-top: -75px;
+  z-index: 2;
+}
+/* Logo */
+.logo-pem-or-text{
+  width: 200px;
+}
+
+.logo-pem-or-text img{
+  height: 75px;
+  overflow: hidden;
+}
+
+.logo-pem-or-text  h1{
+  height: 50px;
+  padding-top: 25px;
+}
+
+.logo-pem-or-text h1 a, .logo-pem-or-text h1 a:link{
+  text-decoration: none;
+  color: #cecece;
+}
+/* Nav */
+nav {
+  font-family: 'League Spartan', sans-serif;
+  ;
+}
+nav ul li{
+  margin-right: 20px;
+  float: left;
+  height: 50px;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+nav ul li a:hover, nav ul li a:link{
+  color: #4796B9;
+}
+
+/* Search Form */
+
+
+
+/* /Main Image or Video Background/ */ 
+.main-image-video-bg{
+  border-bottom: 2px solid #cecece;
+  background-color: #4796B9;
+  height: 400px;
+  padding-top: 75px;
+}
+
