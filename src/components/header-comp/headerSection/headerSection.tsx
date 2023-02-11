@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import SearchBar from './searchBar';
+import SearchBar from '../searchBar/searchBar';
+
 
 interface HeaderState {
 
