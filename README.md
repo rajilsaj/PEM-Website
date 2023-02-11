@@ -1,3 +1,17 @@
+# PEM Web Application
+This repository contains the source code for the official web application of [Name of Church]. Our goal is to provide a comprehensive platform for our members to stay connected with the church and access a range of resources and information.
+
+## Main Menu
+The main menu of the web application includes the following sections:
+
+    - Accueil: The home page, featuring the latest news and updates from the church.
+    - Vie de l'Église: A section dedicated to the life of the church, including information about our history, beliefs, and mission.
+    - Agenda: An up-to-date calendar of events and worship services.
+    - Enseignements: A library of past sermons and teachings.
+    - En Direct: A page for live streaming of worship services and events.
+    - Don en Ligne: An online giving platform for members to support the church financially.
+    - Contact: Information for contacting the church and its staff.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
