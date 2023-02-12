@@ -1,18 +1,21 @@
+import React from 'react';
 
-import React, {Component} from 'react';
 
-interface SearchFormState{
-
+/* This will be used to define the interface contract for the context (used for monitoring) */
+interface ActionGroupProps {
+    eventContext: string;
 }
 
-class SearchBar extends Component<{}, SearchFormState> {
-    render() {
-        return (
-            <div className="">
-                <input placeholder="what's you looking for ?" />
-            </div>
-        );
-    }
+/* This will be used to define the interface contract for the state properties */
+interface SearchBarStateProps {
+    isResourceLoading: boolean;
 }
 
-export default SearchBar;
+export const SearchBarComponent: React.FC<ActionGroupProps> = ({
+}) => {
+    return (
+       <div className="">
+            <input placeholder="What are you looking for ?" />
+        </div>
+    );
+};

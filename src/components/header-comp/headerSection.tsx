@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import SearchBar from './searchBar';
+import { SearchBarComponent } from './searchBar';
 
 interface HeaderState {
 
@@ -58,7 +58,7 @@ class HeaderSection extends Component<{},HeaderState> {
                 </li>
             </ul>
             </nav>
-            <SearchBar  />
+            <SearchBarComponent eventContext="SearchBar" />
             </header>
 
         );
