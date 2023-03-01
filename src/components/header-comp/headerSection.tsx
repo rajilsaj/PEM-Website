@@ -8,7 +8,7 @@ interface HeaderState {
 class HeaderSection extends Component<{},HeaderState> {
     render() {
         return (
-            <header className='main-header-container'>
+            <header className='main-header-container redly'>
                 <span className='logo-pem-or-text'>
                     <h1 className=''>
                         <a href='#'>
