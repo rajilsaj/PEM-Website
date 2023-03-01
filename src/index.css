@@ -19,8 +19,9 @@ code {
   border: 1px red solid;
 }
 
-/* Main Container */
+/* Main Header Container */
 .main-header-container{
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
