@@ -11,7 +11,7 @@ class HeaderSection extends Component<{},HeaderState> {
             <header className='main-header-container'>
                 <span className='logo-pem-or-text'>
                     <h1 className=''>
-                        <a href='#'>
+                        <a href='/#'>
                         PEM
                         </a>
                     </h1>
@@ -19,40 +19,40 @@ class HeaderSection extends Component<{},HeaderState> {
             <nav>
             <ul className=''>
                 <li>
-                <a href='#'>
+                <a href='/#'>
                 Accueil
                 </a>
                 </li>
                 
                 <li>
-                <a href='#'>
+                <a href='/#'>
                 La vie de l'église
                 </a>
                 </li>
                 <li>
-                <a href='#'>
+                <a href='/#'>
                 Agenda
                 </a>
                 </li>
                 
                 <li>
-                <a href='#'>
+                <a href='/#'>
                 Enseignements
                 </a>
                 </li>
                 <li>
-                <a href='#'>
+                <a href='/#'>
                 En direct
                 </a>
                 </li>
                 <li>
-                <a href='#'>
+                <a href='/#'>
                 Don en ligne
                 </a>
                 </li>
                 <li>
 
-                <a href='#'>
+                <a href='/#'>
                 Contact
                 </a>
                 </li>
