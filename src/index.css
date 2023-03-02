@@ -123,3 +123,41 @@ code {
   flex-direction: column;
   align-items: center;
 }
+ul.pem-social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul.pem-social-icons li {
+  margin: 10px;
+}
+.newsletter-pem {
+  height: 200px;
+}
+.newsletter-pem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-text{
+    margin-right: 50px;
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+
+}
+.footer-widget{
+  height: 400px;
+  overflow: hidden;
+}
+.footer-widget{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-widget .widget-block{
+  display: flex;
+  flex-direction: column;
+}
