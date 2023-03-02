@@ -137,3 +137,48 @@ nav ul li a:hover, nav ul li a:link{
   width: 300px;
   padding: 30px;
 }
+.pem-social-icons li a{
+  font-size: 30px;
+  color: #FFF;
+}
+
+.pem-social-icons li:first-child a:hover {
+  color: #4267B2  ;
+  transition: 0.5s ease-in-out color;
+}
+.pem-social-icons li:nth-child(2) a:hover {
+  color: #1DA1F2;
+  transition: 0.5s ease-in-out color;
+}
+.pem-social-icons li:nth-child(3) a:hover {
+  color: #F56040;
+  transition: 0.5s ease-in-out color;
+}
+
+.pem-social-icons li:nth-child(4) a:hover {
+  color: #FF0000;
+  transition: 0.5s ease-in-out color;
+}
+.pem-copyright{
+  background: #282828;
+}
+.footer-info{
+  padding: 15px;
+}
+.footer-info a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+.footer-info ul li{
+  height: 5px;
+}
+.footer-info ul li:not(:first-child)  a::before {
+  content: ".";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  font-weight: 900;
+  font-size: 15px;
+  align-items: center;
+}

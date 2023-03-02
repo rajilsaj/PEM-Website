@@ -8,10 +8,10 @@ import { FooterWidget } from './widgetSection';
 /* FooterComponent */
 export const FooterComponent = () => {
   return <>
-  <footer className='generic-container main-footer'>
-      <section className='founder-pem container'>
+      <footer className='generic-container main-footer'>
+        <section className='founder-pem'>
           
-      </section>
+        </section>
       <Newsletter />
       <FooterWidget />
       <Copyright />

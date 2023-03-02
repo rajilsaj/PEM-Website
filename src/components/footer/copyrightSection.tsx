@@ -11,12 +11,29 @@ export const Copyright = () => {
 
 export const CopyrightMenu = () => {
     return <>
-            <div id="footer-info"> &copy;  Prions Ensemble Ministries 2023. Tous droits réservés 
-            - <a href="/#">Politique de confidentialité </a>
-            - <a href="p/#">Politique de confidentialité application PEM </a>
-            - <a href="/#">Mentions Légales </a>
-            - <a href="/#">Cookies </a>
-            - <a href="/#">Mention d’information applications </a>
+            <div className="footer-info"> 
+            <ul>
+                <li>
+                  <a href='/#'>
+                  &copy;  Prions Ensemble Ministries 2023
+                  </a>
+                </li>
+                <li>
+                  <a href="/#"> Tous droits réservés  </a>
+                </li>
+                <li>
+                  <a href="/#">Politique de confidentialité </a>
+                </li>
+                <li>
+                  <a href="/#">Mentions Légales </a>
+                </li>
+                <li>
+                  <a href="/#">Cookies </a>
+                </li>
+                <li>
+                  <a href="/#">Mention d’information applications </a>
+                </li>
+              </ul>
             </div> 
         </>
 }

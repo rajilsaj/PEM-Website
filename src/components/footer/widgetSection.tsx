@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FooterWidget = () => {
     return <section className='footer-widget mini-container'>
-            <div className="widget-block ">
+            <div className="widget-block  ">
             <div id="custom_html-13" className="widget_text fwidget et_pb_widget widget_custom_html">
                 <h4 className="title">Contact</h4>
             <div className="textwidget custom-html-widget"><h6>
