@@ -19,9 +19,91 @@ code {
   border: 1px red solid;
 }
 
+/* Container */
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.block-container{
+  display: flex;
+}
+
 /* Main Header Container */
 .main-header-container{
   display: flex;
   justify-content: space-around;
   position: relative;
+}
+
+/* Feature Container */
+.feat-container{
+  height: 500px;
+  background: #f1f3f4;
+}
+.feat-container h1{
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.feat-blocks {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+}
+
+
+.block{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block img{
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  border: 1px solid #dae1e8;
+}
+
+.block h2{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.block h2, .block span{
+  margin-top: 10px;
+  width: 300px; 
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Biblical teaching container  */
+.teaching-container{
+  height: 800px;
+  background: #f1f3f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.teaching-container h1{
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.teaching-container .container{
+  margin-top: 6px;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 600px;
+  width: 900px;
 }
