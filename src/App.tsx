@@ -68,7 +68,7 @@ function App() {
       </section>
 
         {/* Section 3 */}
-      <section className='teaching-container '>
+      <section className='teaching-container'>
         <h1> Enseignements Bibliques</h1>
         <div className="container redly">
           
@@ -77,8 +77,51 @@ function App() {
       </section>
 
         {/* Footer  */}
-      <footer className=''>
+      <footer className='generic-container redly'>
+          <section className='founder-pem container'>
+            
+          </section>
+          <section className='newsletter-pem mini-container'>
+            
+          </section>
+          <section className='footer-pem mini-container'>
 
+          </section>
+          <section className='pem-copyright mini-container'>
+          <ul className="et-social-icons">
+            <li className="et-social-icon et-social-facebook">
+              <a href="#" className="icon">
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li className="et-social-icon et-social-twitter">
+              <a href="#" className="icon">
+                <span>Twitter</span>
+              </a>
+            </li>
+
+          <li className="et-social-icon et-social-youtube">
+          <a href="#" className="icon">
+          <span>Youtube</span>
+          </a>
+          </li>
+
+
+          <li className="et-social-icon et-social-instagram">
+          <a href="#" className="icon">
+          <span>Instagram</span>
+          </a>
+          </li>
+
+          </ul>
+          <div id="footer-info"> &copy;  Prions Ensemble Ministries 2023. Tous droits réservés 
+          - <a href="politique-de-confidentialite">Politique de confidentialité </a>
+          - <a href="politique-de-confidentialite-applications-icc">Politique de confidentialité application PEM </a>
+          - <a href="mentions-legales">Mentions Légales </a>
+          - <a href="cookies">Cookies </a>
+          - <a href="mention-dinformation-applications">Mention d’information applications </a>
+          </div> 
+          </section>
       </footer>
 
     </div>
