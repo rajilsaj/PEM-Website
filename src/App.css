@@ -53,7 +53,7 @@ section.main-image-video-bg{
 /* Nav */
 nav {
   font-family: 'League Spartan', sans-serif;
-  ;
+  
 }
 nav ul li{
   margin-right: 20px;
@@ -76,8 +76,7 @@ nav ul li a:hover, nav ul li a:link{
 
 /* /Main Image or Video Background/ */ 
 .main-image-video-bg{
-  border-bottom: 2px solid #cecece;
-  background-color: #4796B9;
+  background-color: #1a73e8;
   height: 400px;
   padding-top: 75px;
 }
