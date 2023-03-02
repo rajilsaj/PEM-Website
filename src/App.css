@@ -16,9 +16,16 @@
     src: local('LeagueSpartan'), url(./assets/fonts/League_Spartan/LeagueSpartan-Black.ttf) format('opentype');
 }
 
-html, body, span, div, h1, h2, section{
+html, body, span, div, h1, h2, h3, h4, section, p {
   font-family: 'LeagueSpartan', sans-serif, Arial;
 }
+
+.title {
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 600;
+}
+
 /* /Header/ */ 
 .header{
   position: relative;
@@ -79,6 +86,26 @@ nav ul li a:hover, nav ul li a:link{
   background-color: #1a73e8;
   height: 400px;
   padding-top: 75px;
+}
+
+
+/* Carousel */
+.teaching-container h1{
+  font-size: 50px;
+}
+.teaching-container{
+  border-top: 0.5px solid #FCFDFD;
+}
+
+.teaching-slider{
+  background: #FCFDFD;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  border: 1px solid #dae1e8;
+}
+
+.teaching-container .title{
+    margin-bottom: 45px;
 }
 
 /* Footer */

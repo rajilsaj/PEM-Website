@@ -2,10 +2,10 @@ import React from 'react'
 import b1 from '../../assets/img/1.jpg';  
 import b2 from '../../assets/img/2.jpg';  
 
-export const FeatComp = () =>{
+export const ChurchLife = () =>{
     return    <section className='feat-container container'>
     <div className="feat-blocks container">
-        <h1>La vie de l'église</h1>
+        <h1 className='title'>La vie de l'église</h1>
         <div className='block-container'>
 
           <div className=' block'>

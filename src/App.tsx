@@ -3,7 +3,7 @@ import './App.css';
 
 import IntroSection from './components/header-comp/introSection';
 import HeaderSection from './components/header-comp/headerSection';
-import { FeatComp } from './components/sections/featComp';
+import { ChurchLife } from './components/sections/churchLifeComp';
 import { BiblicalComp } from './components/sections/biblicalComp';
 import { FooterComponent } from './components/footer/footerSection';
 
@@ -15,7 +15,8 @@ function App() {
             <HeaderSection />
             <IntroSection />
         </div>
-        <FeatComp />
+        
+        <ChurchLife />
         <BiblicalComp />
         <FooterComponent />
     </div>

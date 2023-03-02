@@ -51,12 +51,7 @@ code {
   height: 500px;
   background: #f1f3f4;
 }
-.feat-container h1{
-  margin-bottom: 60px;
-  font-size: 30px;
-  font-weight: lighter;
-  text-transform: uppercase;
-}
+
 .feat-blocks {
   display: flex;
   padding-top: 30px;
@@ -103,11 +98,7 @@ code {
   padding-top: 30px;
 }
 
-.teaching-container h1{
-  font-size: 30px;
-  font-weight: lighter;
-  text-transform: uppercase;
-}
+
 
 .teaching-container .container{
   margin-top: 6px;
