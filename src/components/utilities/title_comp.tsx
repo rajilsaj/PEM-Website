@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-interface TitleState {
-
+type TitleProps = {
+    title: string
 }
 
-class Titler extends Component<{},TitleState> {
-    render() {
-        return (<h1>Hello World</h1>);
-    }
+const Title = ({title}: TitleProps)=> {
+        return (
+                <h2>
+                    {title}
+                </h2>
+        );
 }
-export default Titler;
+
+export default Title;
