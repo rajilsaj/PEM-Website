@@ -89,7 +89,7 @@ nav ul li a:hover, nav ul li a:link{
 }
 
 
-/* Carousel */
+/* Teaching */
 .teaching-container h1{
   font-size: 50px;
 }
@@ -108,6 +108,45 @@ nav ul li a:hover, nav ul li a:link{
 .teaching-container .title{
     margin-bottom: 45px;
 }
+.left-arrow, .right-arrow{
+  font-size: 50px;
+}
+.slider{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -110px;
+}
+.slider-image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+ 
+}
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+
 
 /* Footer */
 .main-footer{
@@ -183,3 +222,5 @@ nav ul li a:hover, nav ul li a:link{
   font-size: 15px;
   align-items: center;
 }
+
+
