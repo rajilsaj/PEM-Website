@@ -101,11 +101,16 @@ nav ul li a:hover, nav ul li a:link{
   justify-content: center;
   text-transform: uppercase;
   margin: 5px;
-  padding: 10px;
   background: #EFEFF4;
+}
+.d-block-elt{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 .d-block-elt h4{
   font-weight: 800;
+  font-size: 12px;
 }
 
 .d-block{
