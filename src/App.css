@@ -89,11 +89,41 @@ nav ul li a:hover, nav ul li a:link{
 /* Search Form */
 
 
+/* Display Event Block */
+.d-block{
+  display: inline-flex;
+  justify-content: center;
+}
+.d-block-elt{
+  height: auto;
+  width: 200px;
+  display: inline-flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 10px;
+  background: #EFEFF4;
+}
+.d-block-elt h4{
+  font-weight: 800;
+}
+
+.d-block{
+  background: #fff;
+  box-shadow: 0 1px 1px 1px rgba(224,224,224,1);
+  border-radius: 8px;
+  padding: 15px 30px;
+  position: absolute;
+  height: 80px;
+  width: 600px;
+  top: 48%;
+  left: 25%;
+}
 
 /* /Main Image or Video Background/ */ 
 .main-image-video-bg{
-  background-color: #1a73e8;
   height: 400px;
+  overflow: hidden;
   padding-top: 75px;
 }
 
@@ -103,12 +133,16 @@ nav ul li a:hover, nav ul li a:link{
 }
 .church_services{
   background: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
   border-bottom : 1px solid rgba(224,224,224,0.5);
   box-shadow: 0 1px 1px -1px rgba(224,224,224,1);
 }
 .church_services div.feat_icon{
   display: flex;
   justify-content: center;
+  
 }
 .church_services .block img {
   height: 150px;
@@ -244,6 +278,7 @@ span.slide-title{
 .church_life h1{
   margin-bottom: 20px;
 }
+
 
 
 /* Footer */

@@ -1,13 +1,14 @@
 import React from 'react'
 import HeaderSection from './headerSection'
-import IntroSection from './introSection'
 import { ChurchServices } from '../sections/churchServices'
+import { IntroSection } from './introSection'
+import introbg from '../../assets/img/bg-pem-test.jpg'
 
 export class Hero extends React.Component {
     render() {
         return  <div className="header">
                     <HeaderSection />
-                    <IntroSection />
+                    <IntroSection intro_background={introbg} />
                     <ChurchServices />
                 </div>
     }

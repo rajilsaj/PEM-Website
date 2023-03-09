@@ -4,11 +4,13 @@ import  pem1service from '../../assets/img/pem_1.png'
 import  pem2service from '../../assets/img/pem_2.png'
 import  pem3service from '../../assets/img/pem_3.png'
 import  pem4service from '../../assets/img/pem_4.png'
+import { EventDisplay } from '../header-comp/eventDisplay'
 
 
 export class ChurchServices extends React.Component {
     render() {
         return <section className='church_services feat-container'>
+            <EventDisplay />
             <div className="feat-blocks container">
                 <div className="block-container">
                     <div className="block ">

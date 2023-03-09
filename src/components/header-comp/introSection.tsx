@@ -1,20 +1,23 @@
-import React, {Component} from 'react';
+import React from 'react'
 
-interface IntroSectionState{
-
+type IntroProps = {
+    intro_background : string,
 }
-/* Main Function - choose if the background image would be a video or an image
- from the PEM api*/
-class IntroSection extends Component<{}, IntroSectionState > {
+
+
+export class IntroSection extends React.Component<IntroProps> {
     render() {
+        const bgStyle={ 
+                    background: `url(${this.props.intro_background})`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center',
+        };
+
         return (
-            <section className="main-image-video-bg">
-                <h1>
-                    
-                </h1>
+            <section className="main-image-video-bg" style={bgStyle}>
             </section>
         );
     }
 }
 
-export default IntroSection;
