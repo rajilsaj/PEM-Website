@@ -5,7 +5,7 @@ import { SliderData } from '../utilities/sliderData'
 
 export const BiblicalComp = () => {
     return  <section className='teaching-container'>
-            <h1 className='title'><TfiBook />&nbsp;Enseignements Bibliques</h1>
+            <h1 className='title'><TfiBook style = {{transform: 'rotate(-19deg)' }}  />&nbsp;Enseignements Bibliques</h1>
             <div className='container teaching-slider '>
                 
                 <ImageSlider slides={SliderData} />
