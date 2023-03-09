@@ -1,21 +1,15 @@
 import React from 'react';
 import './App.css';
-
-import IntroSection from './components/header-comp/introSection';
-import HeaderSection from './components/header-comp/headerSection';
 import { ChurchLife } from './components/sections/churchLifeComp';
 import { BiblicalComp } from './components/sections/biblicalComp';
 import { FooterComponent } from './components/footer/footerSection';
+import {Hero} from './components/header-comp/hero';
 
 
 function App() {
   return (
     <div className="App">
-        <div className="header">
-            <HeaderSection />
-            <IntroSection />
-        </div>
-        
+        <Hero />
         <ChurchLife />
         <BiblicalComp />
         <FooterComponent />

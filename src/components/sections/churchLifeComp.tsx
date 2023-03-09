@@ -3,13 +3,12 @@ import b1 from '../../assets/img/1.jpg';
 import b2 from '../../assets/img/2.jpg';  
 
 export const ChurchLife = () =>{
-    return    <section className='feat-container container'>
+    return    <section className='feat-container container church_life'>
     <div className="feat-blocks container">
         <h1 className='title'>La vie de l'église</h1>
         <div className='block-container'>
 
           <div className=' block'>
-
               <img src={b1} alt={"b1"} />
               <h2 className=''>Témoignages</h2>
               <span className=''>
