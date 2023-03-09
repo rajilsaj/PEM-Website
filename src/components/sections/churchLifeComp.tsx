@@ -5,7 +5,7 @@ import { TfiBook } from 'react-icons/tfi';
 
 export const ChurchLife = () =>{
     return    <section className='feat-container container church_life'>
-    <div className="feat-blocks container">
+    <div className="feat-blocks container ">
         <h1 className='title'><TfiBook />&nbsp;La vie de l'église</h1>
         <div className='block-container'>
 
