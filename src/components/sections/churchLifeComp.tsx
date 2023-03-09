@@ -1,11 +1,12 @@
 import React from 'react'
 import b1 from '../../assets/img/1.jpg';  
 import b2 from '../../assets/img/2.jpg';  
+import { TfiBook } from 'react-icons/tfi';
 
 export const ChurchLife = () =>{
     return    <section className='feat-container container church_life'>
     <div className="feat-blocks container">
-        <h1 className='title'>La vie de l'église</h1>
+        <h1 className='title'><TfiBook />&nbsp;La vie de l'église</h1>
         <div className='block-container'>
 
           <div className=' block'>

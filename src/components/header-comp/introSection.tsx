@@ -10,7 +10,7 @@ class IntroSection extends Component<{}, IntroSectionState > {
         return (
             <section className="main-image-video-bg">
                 <h1>
-                    Here I am
+                    
                 </h1>
             </section>
         );
